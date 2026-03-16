@@ -4,6 +4,8 @@
     "description": "Demo de Node (Back-end) del Curso DATW 2026",
     "main": "index.js",
     "scripts": {
+        "start": "cross-env NODE_ENV=Prod node ./src/cli-demo.ts",
+        "dev": "cross-env NODE_ENV=Dev node --env-file=.env ./src/cli-demo.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -13,6 +15,9 @@
     "type": "module",
     "prettier": {
         "singleQuote": true
+    },
+    "dependencies": {
+        "cross-env": "^10.1.0"
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",
