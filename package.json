@@ -17,12 +17,14 @@
         "singleQuote": true
     },
     "dependencies": {
-        "cross-env": "^10.1.0"
+        "cross-env": "^10.1.0",
+        "prompt-sync": "^4.2.0"
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",
         "@eslint/json": "^1.1.0",
         "@types/node": "^25.5.0",
+        "@types/prompt-sync": "^4.2.3",
         "eslint": "^10.0.3",
         "globals": "^17.4.0",
         "prettier": "^3.8.1",
